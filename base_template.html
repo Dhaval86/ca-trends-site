@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://<your-username>.github.io/ca-trends-site/">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+      padding: 20px;
+      background-color: #fdfdfd;
+      color: #222;
+    }
+    header, footer {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header h1 a {
+      color: #2c3e50;
+      text-decoration: none;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #2980b9;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-top: 30px;
+    }
+    p {
+      margin: 15px 0;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+    a#archives-link {
+      display: block;
+      margin: 20px 0;
+      font-weight: bold;
+      color: #0073e6;
+    }
+    a#archives-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Daily CA Trends</a></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="archives.html">Archives</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  {{ content }}
+
+  <footer>
+    <p>&copy; 2025 Daily CA Trends | <a href="https://github.com/Dhaval86/ca-trends-site" target="_blank">Source on GitHub</a></p>
+  </footer>
+</body>
+</html>
