@@ -14,7 +14,7 @@ BASE_TEMPLATE = "base_template.html"
 HTML_FILE = "index.html"
 ARCHIVES_FILE = "archives.html"
 SITEMAP_FILE = "sitemap.xml"
-BASE_URL = "https://<your-username>.github.io/ca-trends-site/"  # replace with your GitHub Pages URL
+BASE_URL = "https://Dhaval86.github.io/ca-trends-site/"  # replace with your GitHub Pages URL
 
 client = OpenAI(api_key=OPENAI_KEY)
 
